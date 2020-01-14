@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const app = express();
 
+mongoose.set('useCreateIndex', true);
 const dbString = '<Insira o URL do MongoDB aqui>';
 
 if (dbString.startsWith('<')){
