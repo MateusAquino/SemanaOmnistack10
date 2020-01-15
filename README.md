@@ -9,6 +9,9 @@
   <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
     <img src="https://img.shields.io/badge/react-16.12.0-informational?logo=react"></img>
   </a>
+  <a aria-label="Desafios" href="DESAFIOS.md">
+  	<img src="https://img.shields.io/badge/desafios-OK-blueviolet"></img>
+  </a>
   <a aria-label="Dia 3 de 5" href="https://rocketseat.com.br/week-10/aulas#3">
     <img src="https://img.shields.io/badge/Dia-3-green"></img>
   </a>
@@ -34,7 +37,7 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
 
 ## Frontend
-Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 ficou assim:
+Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio][DESAFIOS.md] feito) ficou assim:
 
 <img align="center" src="./static/frontend.png"></img>
 

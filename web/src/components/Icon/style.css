@@ -1,0 +1,18 @@
+svg#pen {
+    enable-background: new 0 0 512 512;
+}
+
+svg g#halfSeen {
+    opacity: 0.30;
+}
+
+svg.icon {
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+}
+
+svg.icon.clickable {
+    cursor: pointer;
+}

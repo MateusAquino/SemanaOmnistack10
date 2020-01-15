@@ -21,6 +21,11 @@ li.dev-item header .user-info {
     margin-left: 10px;
 }
 
+li.dev-item header .icons {
+    float: right;
+    margin-left: auto;
+}
+
 .user-info strong {
     display: block;
     font-size: 16px;

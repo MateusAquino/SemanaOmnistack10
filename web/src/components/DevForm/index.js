@@ -2,13 +2,17 @@ import React, { useState, useEffect } from 'react';
 
 import './style.css';
 
-function DevForm({ onSubmit }){
+function DevForm({ onAdd, onEdit, editModeState }){
+    const [{editMode, dev}, setEditMode] = editModeState;  
     const [github, setGithub] = useState('');
     const [techs, setTechs] = useState('');
     const [latitude, setLatitude] = useState('');
     const [longitude, setLongitude] = useState('');
 
     useEffect(() => {
+      if (!editMode) { // Localização do navegador (Pois o usuário está cadastrando)
+        setGithub('');
+        setTechs('');
         navigator.geolocation.getCurrentPosition(
           (position) => {
             const { latitude, longitude } = position.coords;
@@ -22,11 +26,26 @@ function DevForm({ onSubmit }){
             timeout: 30000
           }
         )
-    }, []);
+      } else { // Localização do dev selecionado (Pois o usuário está editando)
+        const { github, techs, location: { coordinates: [latitude, longitude]}} = dev;
+        setGithub(github);
+        setTechs(techs.join(", "));
+        setLatitude(latitude);
+        setLongitude(longitude);
+      }
+    }, [editMode, dev]);
 
     async function handleSubmit(e){
         e.preventDefault();
-        await onSubmit({
+        if (editMode) {
+          await onEdit(dev, {
+            techs,
+            latitude,
+            longitude
+          })
+          setEditMode({editMode: false, dev: {}});
+        } else 
+        await onAdd({
             github,
             techs,
             latitude,
@@ -45,6 +64,7 @@ function DevForm({ onSubmit }){
             id="github" 
             required
             value={github}
+            disabled={editMode}
             onChange={e => setGithub(e.target.value)}
           />
         </div>
