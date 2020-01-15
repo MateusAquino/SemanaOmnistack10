@@ -39,7 +39,7 @@ Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arqu
 ## Frontend
 Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio](DESAFIOS.md) feito) ficou assim:
 
-<img align="center" src="./static/frontend.png"></img>
+<img align="center" src="./static/frontend.gif"></img>
 
 ## Imnsonia 
 Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` →  
