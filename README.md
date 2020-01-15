@@ -37,7 +37,7 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
 
 ## Frontend
-Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio][DESAFIOS.md] feito) ficou assim:
+Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio](DESAFIOS.md) feito) ficou assim:
 
 <img align="center" src="./static/frontend.png"></img>
 
