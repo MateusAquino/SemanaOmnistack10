@@ -1,7 +1,7 @@
 # Overview
 O Frontend é um recurso React-based para comunicar com a api DevRadar (Backend/Nodejs).
 Esta foi criada para servir à 10ª Semana da Omnistack desenvolvida pela Rocketseat.  
-Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) utilizando padrões de componentização.
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) utilizando padrões de componentização e responsividade.
 
 # Desenvolvimento
 ## Script

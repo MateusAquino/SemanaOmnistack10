@@ -226,9 +226,9 @@ GET /api/search?techs=ReactJS,Node.JS&latitude=-23.2480525&longitude=-45.8870291
 ```
 </details>
 
-[1]: https://github.com/MateusAquino/SemanaOmnistack10/blob/master/BACKEND.md#index
-[2]: https://github.com/MateusAquino/SemanaOmnistack10/blob/master/BACKEND.md#create
-[3]: https://github.com/MateusAquino/SemanaOmnistack10/blob/master/BACKEND.md#read
-[4]: https://github.com/MateusAquino/SemanaOmnistack10/blob/master/BACKEND.md#update
-[5]: https://github.com/MateusAquino/SemanaOmnistack10/blob/master/BACKEND.md#delete
-[6]: https://github.com/MateusAquino/SemanaOmnistack10/blob/master/BACKEND.md#search-1
+[1]: #index
+[2]: #create
+[3]: #read
+[4]: #update
+[5]: #delete
+[6]: #search-1

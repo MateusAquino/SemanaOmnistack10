@@ -15,10 +15,12 @@
 </p>
 
 ## Frontend
-Veja em [./web/README.md](./web) para informações sobre o Frontend e os padrões.
+Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 ficou assim:
+
+<img align="center" src="./static/frontend.png"></img>
 
 ## Backend
-Veja em [./Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
+Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
 
 ## Uso
 Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
