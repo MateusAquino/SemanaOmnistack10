@@ -14,15 +14,7 @@
   </a>
 </p>
 
-## Frontend
-Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 ficou assim:
-
-<img align="center" src="./static/frontend.png"></img>
-
-## Backend
-Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
-
-## Uso
+## Instalação
 Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
 Para instalar as dependências e executar o Servidor (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
 ```bash
@@ -37,6 +29,14 @@ yarn install
 yarn start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido até agora (Dia 3 de 5).
+
+## Backend
+Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
+
+## Frontend
+Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 ficou assim:
+
+<img align="center" src="./static/frontend.png"></img>
 
 ## Imnsonia 
 Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` →  
