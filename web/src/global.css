@@ -20,6 +20,6 @@ body {
     -webkit-font-smoothing: antialiased; /* Fonte mais legível no Chrome */
 }
 
-body, input, button {
+body, input, textarea, button {
     font-family: Roboto, sans-serif;
 }

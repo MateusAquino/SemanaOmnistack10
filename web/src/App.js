@@ -38,7 +38,6 @@ function App() {
       const { github } = dev;
       const newDevs = devs.map(async dev => {
         if (dev.github===github){
-            console.log(`devs/${github}`, data);
             const response = await api.put(`devs/${github}`, data);
             if (response.data.modifiedCount > 0){
               const newDev = await api.get(`devs/${github}`);

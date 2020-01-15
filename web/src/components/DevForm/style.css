@@ -24,13 +24,19 @@ aside form .input-block label {
     display: block;
 }
 
-aside form .input-block input {
+aside form .input-block input, 
+aside form .input-block textarea {
     width: 100%;
     height: 32px;
     font-size: 14px;
     color: #666;
     border: 0;
     border-bottom: 1px solid #eee;
+}
+
+aside form .input-block textarea {
+    height: 70px;
+    resize: none;
 }
 
 aside form button[type=submit] {
