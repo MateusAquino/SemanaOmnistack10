@@ -1,0 +1,25 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const routes = require('./routes');
+const app = express();
+
+const dbString = `mongodb+srv://Mateus:Fall1943@cluster0-r0y7f.mongodb.net/week10?retryWrites=true&w=majority`;
+
+if (dbString.startsWith('<')){s
+  let redStr = "\x1b[31m";
+  console.error(redStr + "ERRO! Você não configurou o MongoDB ainda!");
+  console.error(redStr + "Adicione o Cluster padrão, o Usuário do banco e adicione a linha de conexão em 'Clusters > Connect > Connect Your Application' no arquivo index.js!");
+  return;
+}
+
+mongoose.connect(dbString,  {
+      useNewUrlParser: true, 
+      useUnifiedTopology: true,
+      useCreateIndex: true
+    });
+
+app.use(cors());
+app.use(express.json());
+app.use('/api', routes);
+app.listen(3333);
