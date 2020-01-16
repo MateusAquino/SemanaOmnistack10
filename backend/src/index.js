@@ -4,9 +4,9 @@ const cors = require('cors');
 const routes = require('./routes');
 const app = express();
 
-const dbString = `mongodb+srv://Mateus:Fall1943@cluster0-r0y7f.mongodb.net/week10?retryWrites=true&w=majority`;
+const dbString = `<INSIRA A LINHA DO BANCO AQUI>`;
 
-if (dbString.startsWith('<')){s
+if (dbString.startsWith('<')){
   let redStr = "\x1b[31m";
   console.error(redStr + "ERRO! Você não configurou o MongoDB ainda!");
   console.error(redStr + "Adicione o Cluster padrão, o Usuário do banco e adicione a linha de conexão em 'Clusters > Connect > Connect Your Application' no arquivo index.js!");
