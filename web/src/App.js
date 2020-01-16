@@ -30,8 +30,13 @@ function App() {
   
     async function handleAddDev(data) {
       const response = await api.post('devs', data);
-      if (!devs.length || (devs.length && !devs.reduce((res, dev)=>res===true||dev._id===response.data._id))) // Evitar adicionar duplicatas
-        setDevs([...devs, response.data]); // Spread para manter imutabilidade
+      const { data:newDev } = response;
+      let add = true;
+      for (let oldDev in devs)
+        if (devs[oldDev]._id===newDev._id)
+          add = false;
+      if (add) // Evitar adicionar duplicatas
+        setDevs([...devs, newDev]); // Spread para manter imutabilidade
     }
 
     async function handleEditDev(dev, data){
