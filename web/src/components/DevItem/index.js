@@ -3,7 +3,7 @@ import Icon from '../Icon';
 
 import './style.css';
 
-function DevItem({ dev, onEdit, onDelete}){
+function DevItem({ dev, onEdit, onDelete }){
     const [{editMode, dev: oldDev}, setEditMode] = onEdit;
 
     function editDev(){

@@ -71,7 +71,7 @@ function DevForm({ onAdd, onEdit, editModeState }){
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="input-block">
           <label htmlFor="github">Usuário do GitHub</label>
           <input 
@@ -89,7 +89,7 @@ function DevForm({ onAdd, onEdit, editModeState }){
           <input 
             name="name" 
             id="name" 
-            required
+            required={editMode}
             value={name}
             onChange={e => setName(e.target.value)}
           />
@@ -111,7 +111,7 @@ function DevForm({ onAdd, onEdit, editModeState }){
           <input 
             name="avatar_url" 
             id="avatar_url" 
-            required
+            required={editMode}
             value={avatar_url}
             onChange={e => setAvatarURL(e.target.value)}
           />
