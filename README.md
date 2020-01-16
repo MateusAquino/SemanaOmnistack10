@@ -9,37 +9,53 @@
   <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
     <img src="https://img.shields.io/badge/react-16.12.0-informational?logo=react"></img>
   </a>
+  <a aria-label="Versão do Expo" href="https://www.npmjs.com/package/expo-cli/v/3.11.5">
+    <img src="https://img.shields.io/badge/expo--CLI-3.11.5-informational?logo=expo"></img>
+  </a>
   <a aria-label="Desafios" href="DESAFIOS.md">
   	<img src="https://img.shields.io/badge/desafios-OK-blueviolet"></img>
   </a>
-  <a aria-label="Dia 3 de 5" href="https://rocketseat.com.br/week-10/aulas#3">
-    <img src="https://img.shields.io/badge/Dia-3-green"></img>
+  <a aria-label="Dia 4 de 5" href="https://rocketseat.com.br/week-10/aulas#4">
+    <img src="https://img.shields.io/badge/dia-4-green"></img>
   </a>
 </p>
 
 ## Instalação
 Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
-Para instalar as dependências e executar o Servidor (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
+Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
 ```bash
-cd Backend
+cd backend
 yarn install
 yarn dev
 ```
-Para iniciar o Frontend do React utilize o comando:
+Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
-cd web
+cd frontend
 yarn install
 yarn start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido até agora (Dia 3 de 5).
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido até agora (Dia 3 de 5).  
+
+Para testar o **Mobile** do React Native, primeiro coloque o endereço do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois execute os comandos:
+```bash
+cd mobile
+yarn install
+yarn start
+```
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
 
 ## Backend
-Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
+Veja em [backend/README.md](./backend) para informações sobre o Backend e arquitetura.
 
 ## Frontend
-Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio](DESAFIOS.md) feito) ficou assim:
+Veja em [frontend/README.md](./frontend) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio](DESAFIOS.md) feito) ficou assim:
 
 <img align="center" src="./static/frontend.gif"></img>
+
+## Mobile
+O App Mobile (React Native) desenvolvido no Dia 4 (com o [desafio](DESAFIOS.md) feito) ficou assim:
+
+<img align="center" src="./static/mobile.gif"></img>
 
 ## Imnsonia 
 Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` →  

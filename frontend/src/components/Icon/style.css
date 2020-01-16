@@ -1,0 +1,25 @@
+svg g#halfSeen {
+    opacity: 0.30;
+}
+
+svg.icon {
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    transition: all 0.25s;
+}
+
+svg.icon.clickable {
+    cursor: pointer;
+}
+
+svg.icon#trash:hover {
+    fill: #f44;
+    opacity: 0.7;
+}
+
+svg.icon#pen:hover {
+    fill: #8e4dff;
+    opacity: 1;
+}
