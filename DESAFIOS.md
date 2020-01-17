@@ -5,4 +5,4 @@ Ao longo da semana OmniStack alguns desafios foram propostos pelo Diego, aqui es
 - [X] <b>Aula 2</b>: Criar todos os Endpoints do CRUD (Create, Read, Update, Delete)
 - [X] <b>Aula 3</b>: Criar opções para **deletar** e **editar** devs no React (utilizando a API do desafio da Aula 2)
 - [X] <b>Aula 4</b>: Subir a caixa de texto automaticamente quando o teclado for acionado
-- [ ] <b>Aula 5</b>: ?
+- [X] <b>Aula 5</b>: Nenhum desafio proposto

@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-function api() {
-    const baseURL = 'http://<INSIRA O IP DO BACKEND AQUI>:3333';
+const baseURL = 'http://<INSIRA O IP DO BACKEND AQUI>:3333';
 
+function createAPI() {
     if (baseURL.startsWith('http://<')){
         let redStr = "\x1b[31m";
         console.error(redStr + "ERRO! Você não configurou o Servidor ainda!");
@@ -12,5 +12,5 @@ function api() {
 
     return axios.create({ baseURL })
 }
-
-export default api();
+const api = createAPI();
+export {baseURL, api};

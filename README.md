@@ -15,8 +15,8 @@
   <a aria-label="Desafios" href="DESAFIOS.md">
   	<img src="https://img.shields.io/badge/desafios-OK-blueviolet"></img>
   </a>
-  <a aria-label="Dia 4 de 5" href="https://rocketseat.com.br/week-10/aulas#4">
-    <img src="https://img.shields.io/badge/dia-4-green"></img>
+  <a aria-label="Completo" href="https://rocketseat.com.br/week-10/aulas#4">
+    <img src="https://img.shields.io/badge/OmniStack-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
 </p>
 
@@ -34,7 +34,7 @@ cd frontend
 yarn install
 yarn start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido até agora (Dia 3 de 5).  
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.  
 
 Para testar o **Mobile** do React Native, primeiro coloque o endereço do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois execute os comandos:
 ```bash
@@ -53,7 +53,7 @@ Veja em [frontend/README.md](./frontend) para informações sobre o Frontend e o
 <img align="center" src="./static/frontend.gif"></img>
 
 ## Mobile
-O App Mobile (React Native) desenvolvido no Dia 4 (com o [desafio](DESAFIOS.md) feito) ficou assim:
+O App Mobile (React Native) desenvolvido no Dia 4 e aprimorado no Dia 5 com Sockets (+ o [desafio](DESAFIOS.md) feito) ficou assim:
 
 <img align="center" src="./static/mobile.gif?v=2"></img>
 
