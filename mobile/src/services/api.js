@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://<INSIRA O IP DO BACKEND AQUI>:3333';
+const baseURL = 'http://<INSIRA O IP DO BACKEND AQUI>:3333/api';
 
 function createAPI() {
     if (baseURL.startsWith('http://<')){
